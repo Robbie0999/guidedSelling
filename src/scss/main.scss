@@ -1,0 +1,117 @@
+// general styles start
+$primary-color: rgb(172, 230, 185);
+$secundary-color1: rgb(251, 255, 206);
+$secundary-color2: rgb(114, 111, 232);
+$secundary-color3: rgb(255, 141, 141);
+$black-color: rgb(40, 40, 40);
+$grey-color: rgb(110, 110, 110);
+$lightgrey-color: rgb(200, 200, 200);
+$lightest-color: rgb(235, 235, 235);
+$white-color: rgb(245, 245, 245);
+
+$h1-title: 4em;
+$h2-subtitle: 2em;
+$h3-subtitle: 1.255em;
+$p-text: 0.9em;
+$cta-text: 0.8em;
+
+$font-family1: "Public Sans", sans-serif;
+$font-family2: "Archivo", sans-serif;
+
+$box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.4);
+$border-style: 1px solid rgb(10, 10, 10);
+$marge-standard: 30px;
+$padding-boxes: 8px 20px;
+$padding-boxes-small: 6px 12px;
+
+body{
+  font-family: $font-family1;
+  background-color: $black-color;
+
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+// general styles end
+
+// header styles start
+#sidebar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 70px;
+
+  background-color: $black-color;
+  box-shadow: $box-shadow;
+
+  z-index: 100;
+}
+
+.sidebar-left{
+  margin-left: 60px;
+}
+
+.sidebar-title{
+  font-family: $font-family2;
+  font-size: $h3-subtitle;
+  font-weight: 500;
+  color: $primary-color;
+}
+
+.sidebar-right{
+   margin-right: 60px;
+}
+
+.nav-links{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+  list-style: none;
+}
+
+.sidebar-list{
+  font-family: $font-family1;
+  font-size: $cta-text;
+  font-weight: 500;
+
+  a{
+    text-decoration: none;
+    color: $white-color;
+
+    transition: 0.3s ease-out;
+
+    &:hover{
+      color: $secundary-color1;
+    }
+  }
+}
+// header styles end
+
+// scrollbar styles start
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(50, 50, 50);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $grey-color;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $secundary-color1
+}
+// scrollbar styles end
