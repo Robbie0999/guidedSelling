@@ -1,0 +1,385 @@
+{
+  "collections": [
+    {
+      "id": "suitcases",
+      "title": "Suitcases",
+      "description": "Various suitcases for traveling",
+      "products": [
+        {
+          "id": "suitcases-1",
+          "title": "Eco Traveler Deluxe",
+          "description": "A suitcase",
+          "price": {
+            "currency": "EUR",
+            "amount": "99.99"
+          },
+          "image": "productImage1.jpg",
+          "colors": [
+            {"rgba": [255, 0, 0, 1]},
+            {"rgba": [0, 255, 0, 1]},
+            {"rgba": [0, 0, 255, 1]}
+          ],
+          "size" : "55x42x19cm"
+        },
+        {
+          "id": "suitcases-2",
+          "title": "GreenGlide Carry-On",
+          "description": "A suitcase",
+          "price": {
+            "currency": "EUR",
+            "amount": "174.59"
+          },
+          "image": "productImage2.jpg",
+          "colors": [
+            {"rgba": [255, 0, 0, 1]},
+            {"rgba": [0, 255, 0, 1]},
+            {"rgba": [0, 0, 255, 1]}
+          ],
+          "size" : "42x33x20cm"
+        },
+        {
+          "id": "suitcases-3",
+          "title": "Voyage Pro Max",
+          "description": "A suitcase",
+          "price": {
+            "currency": "EUR",
+            "amount": "129.30"
+          },
+          "image": "productImage3.jpg",
+          "colors": [
+            {"rgba": [255, 0, 0, 1]},
+            {"rgba": [0, 255, 0, 1]},
+            {"rgba": [0, 0, 255, 1]}
+          ],
+          "size" : "50x34x22cm"
+        },
+        {
+          "id": "suitcases-4",
+          "title": "EcoJet Spinner",
+          "description": "A suitcase",
+          "price": {
+            "currency": "EUR",
+            "amount": "141.57"
+          },
+          "image": "productImage4.jpg",
+          "colors": [
+            {"rgba": [255, 0, 0, 1]},
+            {"rgba": [0, 255, 0, 1]},
+            {"rgba": [0, 0, 255, 1]}
+          ],
+          "size" : "52x36x26cm"
+        },
+        {
+          "id": "suitcases-5",
+          "title": "Sustainable Wanderer",
+          "description": "A suitcase",
+          "price": {
+            "currency": "EUR",
+            "amount": "86.22"
+          },
+          "image": "productImage5.jpg",
+          "colors": [
+            {"rgba": [255, 0, 0, 1]},
+            {"rgba": [0, 255, 0, 1]},
+            {"rgba": [0, 0, 255, 1]}
+          ],
+          "size" : "54x42x22cm"
+        },
+        {
+          "id": "suitcases-6",
+          "title": "EcoVoyage Executive",
+          "description": "A suitcase",
+          "price": {
+            "currency": "EUR",
+            "amount": "47.15"
+          },
+          "image": "productImage6.jpg",
+          "colors": [
+            {"rgba": [255, 0, 0, 1]},
+            {"rgba": [0, 255, 0, 1]},
+            {"rgba": [0, 0, 255, 1]}
+          ],
+          "size" : "48x37x30cm"
+        },
+        {
+          "id": "suitcases-7",
+          "title": "GreenJet Compact",
+          "description": "A suitcase",
+          "price": {
+            "currency": "EUR",
+            "amount": "23.24"
+          },
+          "image": "productImage7.jpg",
+          "colors": [
+            {"rgba": [255, 0, 0, 1]},
+            {"rgba": [0, 255, 0, 1]},
+            {"rgba": [0, 0, 255, 1]}
+          ],
+          "size" : "60x36x25cm"
+        },
+        {
+          "id": "suitcases-8",
+          "title": "EcoCruiser Medium",
+          "description": "A suitcase",
+          "price": {
+            "currency": "EUR",
+            "amount": "154.45"
+          },
+          "image": "productImage8.jpg",
+          "colors": [
+            {"rgba": [255, 0, 0, 1]},
+            {"rgba": [0, 255, 0, 1]},
+            {"rgba": [0, 0, 255, 1]}
+          ],
+          "size" : "62x32x25cm"
+        },
+        {
+          "id": "suitcases-9",
+          "title": "Voyage Elite",
+          "description": "A suitcase",
+          "price": {
+            "currency": "EUR",
+            "amount": "100.22"
+          },
+          "image": "productImage9.jpg",
+          "colors": [
+            {"rgba": [255, 0, 0, 1]},
+            {"rgba": [0, 255, 0, 1]},
+            {"rgba": [0, 0, 255, 1]}
+          ],
+          "size" : "55x34x24cm"
+        },
+        {
+          "id": "suitcases-10",
+          "title": "EcoTraveler Large",
+          "description": "A suitcase",
+          "price": {
+            "currency": "EUR",
+            "amount": "235.44"
+          },
+          "image": "productImage10.jpg",
+          "colors": [
+            {"rgba": [255, 0, 0, 1]},
+            {"rgba": [0, 255, 0, 1]},
+            {"rgba": [0, 0, 255, 1]}
+          ],
+          "size" : "45x29x22cm"
+        }
+      ]
+    },
+    {
+      "id": "accessories",
+      "title": "Accessories",
+      "description": "Handy accessories for traveling",
+      "products": [
+        {
+          "id": "accessories-1",
+          "title": "EcoTravel Pillow",
+          "description": "An accessory",
+          "price": {
+            "currency": "EUR",
+            "amount": "6.00"
+          },
+          "image": "productImage11.jpg"
+        },
+        {
+          "id": "accessories-2",
+          "title": "Sustainable Passport Holder",
+          "description": "An accessory",
+          "price": {
+            "currency": "EUR",
+            "amount": "10.56"
+          },
+          "image": "productImage12.jpg"
+        },
+        {
+          "id": "accessories-3",
+          "title": "GreenTech Charger",
+          "description": "An accessory",
+          "price": {
+            "currency": "EUR",
+            "amount": "20.45"
+          },
+          "image": "productImage13.jpg"
+        },
+        {
+          "id": "accessories-4",
+          "title": "EcoLuxe Eye Mask",
+          "description": "An accessory",
+          "price": {
+            "currency": "EUR",
+            "amount": "8.77"
+          },
+          "image": "productImage14.jpg"
+        },
+        {
+          "id": "accessories-5",
+          "title": "EcoTravel Organizer",
+          "description": "An accessory",
+          "price": {
+            "currency": "EUR",
+            "amount": "15.99"
+          },
+          "image": "productImage15.jpg"
+        },
+        {
+          "id": "accessories-6",
+          "title": "GreenBreeze Hand Fan",
+          "description": "An accessory",
+          "price": {
+            "currency": "EUR",
+            "amount": "6.45"
+          },
+          "image": "productImage16.jpg"
+        },
+        {
+          "id": "accessories-7",
+          "title": "EcoSecure Lock",
+          "description": "An accessory",
+          "price": {
+            "currency": "EUR",
+            "amount": "12.34"
+          },
+          "image": "productImage17.jpg"
+        },
+        {
+          "id": "accessories-8",
+          "title": "GreenTraveler Luggage Tag",
+          "description": "An accessory",
+          "price": {
+            "currency": "EUR",
+            "amount": "9.99"
+          },
+          "image": "productImage18.jpg"
+        },
+        {
+          "id": "accessories-9",
+          "title": "EcoComfort Blanket",
+          "description": "An accessory",
+          "price": {
+            "currency": "EUR",
+            "amount": "18.23"
+          },
+          "image": "productImage19.jpg"
+        },
+        {
+          "id": "accessories-10",
+          "title": "GreenWander Bottle",
+          "description": "An accessory",
+          "price": {
+            "currency": "EUR",
+            "amount": "11.45"
+          },
+          "image": "productImage20.jpg"
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "description": "Comfortable clothes for traveling",
+      "products": [
+        {
+          "id": "clothing-1",
+          "title": "EcoTraveler Hoodie",
+          "description": "A piece of clothing",
+          "price": {
+            "currency": "EUR",
+            "amount": "12.00"
+          },
+          "image": "productImage21.jpg"
+        },
+        {
+          "id": "clothing-2",
+          "title": "GreenComfort Tee",
+          "description": "A piece of clothing",
+          "price": {
+            "currency": "EUR",
+            "amount": "124.06"
+          },
+          "image": "productImage22.jpg"
+        },
+        {
+          "id": "clothing-3",
+          "title": "EcoVoyage Pants",
+          "description": "A piece of clothing",
+          "price": {
+            "currency": "EUR",
+            "amount": "27.63"
+          },
+          "image": "productImage23.jpg"
+        },
+        {
+          "id": "clothing-4",
+          "title": "Sustainable Travel Socks",
+          "description": "A piece of clothing",
+          "price": {
+            "currency": "EUR",
+            "amount": "73.55"
+          },
+          "image": "productImage24.jpg"
+        },
+        {
+          "id": "clothing-5",
+          "title": "GreenVoyager Jacket",
+          "description": "A piece of clothing",
+          "price": {
+            "currency": "EUR",
+            "amount": "114.40"
+          },
+          "image": "productImage25.jpg"
+        },
+        {
+          "id": "clothing-6",
+          "title": "EcoJet Shorts",
+          "description": "A piece of clothing",
+          "price": {
+            "currency": "EUR",
+            "amount": "137.36"
+          },
+          "image": "productImage26.jpg"
+        },
+        {
+          "id": "clothing-7",
+          "title": "GreenJourney Scarf",
+          "description": "A piece of clothing",
+          "price": {
+            "currency": "EUR",
+            "amount": "127.28"
+          },
+          "image": "productImage27.jpg"
+        },
+        {
+          "id": "clothing-8",
+          "title": "EcoTraveler Hat",
+          "description": "A piece of clothing",
+          "price": {
+            "currency": "EUR",
+            "amount": "221.08"
+          },
+          "image": "productImage28.jpg"
+        },
+        {
+          "id": "clothing-9",
+          "title": "GreenGlide Shoes",
+          "description": "A piece of clothing",
+          "price": {
+            "currency": "EUR",
+            "amount": "197.69"
+          },
+          "image": "productImage29.jpg"
+        },
+        {
+          "id": "clothing-10",
+          "title": "EcoVoyage Sweater",
+          "description": "A piece of clothing",
+          "price": {
+            "currency": "EUR",
+            "amount": "228.99"
+          },
+          "image": "productImage30.jpg"
+        }
+      ]
+    }
+  ]
+}

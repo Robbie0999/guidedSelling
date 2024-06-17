@@ -1,0 +1,158 @@
+// import main scss for general styles
+@import '../scss/main.scss';
+
+.product-list {
+  width: 100%;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  &::after {
+    content: '';
+    flex: 1 1 calc(50% - 30px); 
+    max-width: calc(50% - 30px); 
+  }
+}
+
+.product-list-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+
+  margin-bottom: 30px;
+}
+
+.total-products{
+  font-size: $p-text;
+  font-weight: 700;
+  color: $grey-color;
+}
+
+.delete-prompt-btn{
+  font-size: $p-text;
+  font-weight: 500;
+  color: $black-color;
+
+  border-radius: 4px;
+  background-color: $white-color;
+  padding: $padding-boxes;
+  cursor: pointer;
+
+  transition: 0.3s ease-out;
+
+  &:hover{
+    background-color: $secundary-color3;
+    color: $white-color;
+  }
+}
+
+.product-item {
+  flex: 1 1 calc(50% - 30px);
+  background-color: $white-color;
+  box-shadow: $box-shadow;
+  border-radius: 4px;
+
+  min-height: 400px;
+  max-height: 400px;
+
+  margin-bottom: 30px;
+}  
+
+.product-image {
+  width: 100%;
+  min-height: 250px;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 4px 4px 0 0;
+}
+
+.product-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding: 20px;
+}
+
+.product-title {
+  font-size: $p-text;
+  font-weight: 700;
+  color: $black-color;
+
+  margin-top: 20px;
+}
+
+.product-content{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.product-description {
+  font-size: $p-text;
+  font-weight: 500;
+  color: $black-color;
+
+  margin-top: 10px;
+} 
+
+.product-price {
+  font-size: $p-text;
+  font-weight: 700;
+  color: $secundary-color2;
+
+  margin-top: 10px;
+}
+
+.product-colors {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.product-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ddd;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #ccc;
+    }
+
+    &.active {
+      background-color: #333;
+      color: #fff;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product-item {
+    flex: 1 1 calc(100% - 30px);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .product-item {
+    flex: 1 1 calc(33.33% - 30px);
+  }
+}
